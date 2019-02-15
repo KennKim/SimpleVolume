@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_height="match_parent">
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Simple Volume"
+            android:id="@+id/tv1"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="wrap_content"
+            android:layout_below="@+id/tv1"
+            android:layout_height="wrap_content"
+            android:text="up" />
+ <Button
+            android:id="@+id/btn2"
+            android:layout_width="wrap_content"
+            android:layout_toEndOf="@+id/btn1"
+            android:layout_alignBottom="@+id/btn1"
+            android:layout_height="wrap_content"
+            android:text="down" />
+
+</RelativeLayout>
